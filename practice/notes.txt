@@ -1,0 +1,94 @@
+1. Why python is used in AI, ML, DS?
+    1. Easy
+    2. Open-source
+    3. simple syntax/ rules
+
+2. Features of python:
+    1. Portable
+    2. OOPS
+    3. Many standard libraries
+    4. Simple to learn
+    5. open-source
+    6. high-level interpreter(memory management)
+
+3. Applications of python
+    1. App /Game development
+    2. AI
+    3. Data Science
+    4. Business analytics
+
+Indentation: specifies a block of statements
+Commenting: Not a code
+Keywords: reserved words with predefined meaning and has a functionality.
+Variable: containers which store values.
+multiple assignment: a, b, c, d=1, 2, "sim", "ran"
+
+Deleting a variable(del x)
+Checking datatype(type(x))
+
+INPUT AND OUTPUT OPERATORS
+x=input(): string
+x=input("Enter a number)
+x=int(x) // conversion
+
+Order of operations: PEMDAS
+
+OPERATORS
+1. Assignment : =
+2. Arithmetic : +,-,*,/,%,**
+3. Comparison: ==,!=,<,>,<=,>=
+4. Assignment : +=,-=,*=,/=,%=,**=,//=
+5. Bitwise: &, |, ~, ^, <<, >>
+6. Logical: AND, OR 
+7. Membership: in, not in 
+8. Identity: is, is not
+
+Python datatypes:
+1. number(int, float, complex, boolean)
+2. string
+3. List
+4. Tuple
+5. Dictionary
+6. set 
+
+string: sequence of characters.
+    Indexing and Slicing
+    s="hello world"
+    s[0] : h
+    s[0:1] : h
+    s[0:3] : hel
+    s[0:4] : hell 
+    s[-7] : o
+
+List: sequence of numbers, strings, dynamic/mutable, syntax in []
+    list=[1,2,3,4,5]
+    list1=["hi", "hello","world"]
+    list[0] : 1
+    list[1:2] : 2
+    type(list): list
+
+    Updating value:
+    list=['phy','chem',1997,2000]
+    print(list): ['phy','chem',1997,2000]
+    list[2] : 1997
+    list[2]=2001 //updation
+    print(list): ['phy','chem',2001,2000]
+
+Tuple: Syntax is in (), immutable
+    tup1=('chem','phy',1997,2000)
+    tup1=(12,34,56)
+    tup2=('abc','xyz')
+    tup[0]=100 //error
+    tup3=tup1+tup2
+    tup3=(12,34,56,'abc','xyz')
+
+Dictionary: acts like a hash table, stores key-value pair, {}to construct a dict, []to index a dict, mutable
+
+Deleting a variable : del x
+
+Type: type(a)
+
+Set functions:
+set={1,2,3,4,5,5,6}
+print(set)>{1,2,3,4,5,6}
+.add, .update, .discard
